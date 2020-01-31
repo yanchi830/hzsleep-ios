@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F978B8723E3F58600CE0246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F978B8623E3F58600CE0246 /* AppDelegate.swift */; };
+		8F978B8923E3F58600CE0246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F978B8823E3F58600CE0246 /* ViewController.swift */; };
+		8F978B8C23E3F58600CE0246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F978B8A23E3F58600CE0246 /* Main.storyboard */; };
+		8F978B8E23E3F58800CE0246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F978B8D23E3F58800CE0246 /* Assets.xcassets */; };
+		8F978B9123E3F58800CE0246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F978B8F23E3F58800CE0246 /* LaunchScreen.storyboard */; };
+		8F978B9C23E3F58800CE0246 /* hzsleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F978B9B23E3F58800CE0246 /* hzsleepTests.swift */; };
+		8F978BA723E3F58800CE0246 /* hzsleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F978BA623E3F58800CE0246 /* hzsleepUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F978B9823E3F58800CE0246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F978B7B23E3F58600CE0246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F978B8223E3F58600CE0246;
+			remoteInfo = hzsleep;
+		};
+		8F978BA323E3F58800CE0246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F978B7B23E3F58600CE0246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F978B8223E3F58600CE0246;
+			remoteInfo = hzsleep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F978B8323E3F58600CE0246 /* hzsleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hzsleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F978B8623E3F58600CE0246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F978B8823E3F58600CE0246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F978B8B23E3F58600CE0246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F978B8D23E3F58800CE0246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F978B9023E3F58800CE0246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F978B9223E3F58800CE0246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F978B9723E3F58800CE0246 /* hzsleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hzsleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F978B9B23E3F58800CE0246 /* hzsleepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hzsleepTests.swift; sourceTree = "<group>"; };
+		8F978B9D23E3F58800CE0246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F978BA223E3F58800CE0246 /* hzsleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hzsleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F978BA623E3F58800CE0246 /* hzsleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hzsleepUITests.swift; sourceTree = "<group>"; };
+		8F978BA823E3F58800CE0246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F978B8023E3F58600CE0246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F978B9423E3F58800CE0246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F978B9F23E3F58800CE0246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F978B7A23E3F58600CE0246 = {
+			isa = PBXGroup;
+			children = (
+				8F978B8523E3F58600CE0246 /* hzsleep */,
+				8F978B9A23E3F58800CE0246 /* hzsleepTests */,
+				8F978BA523E3F58800CE0246 /* hzsleepUITests */,
+				8F978B8423E3F58600CE0246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F978B8423E3F58600CE0246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F978B8323E3F58600CE0246 /* hzsleep.app */,
+				8F978B9723E3F58800CE0246 /* hzsleepTests.xctest */,
+				8F978BA223E3F58800CE0246 /* hzsleepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F978B8523E3F58600CE0246 /* hzsleep */ = {
+			isa = PBXGroup;
+			children = (
+				8F978B8623E3F58600CE0246 /* AppDelegate.swift */,
+				8F978B8823E3F58600CE0246 /* ViewController.swift */,
+				8F978B8A23E3F58600CE0246 /* Main.storyboard */,
+				8F978B8D23E3F58800CE0246 /* Assets.xcassets */,
+				8F978B8F23E3F58800CE0246 /* LaunchScreen.storyboard */,
+				8F978B9223E3F58800CE0246 /* Info.plist */,
+			);
+			path = hzsleep;
+			sourceTree = "<group>";
+		};
+		8F978B9A23E3F58800CE0246 /* hzsleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F978B9B23E3F58800CE0246 /* hzsleepTests.swift */,
+				8F978B9D23E3F58800CE0246 /* Info.plist */,
+			);
+			path = hzsleepTests;
+			sourceTree = "<group>";
+		};
+		8F978BA523E3F58800CE0246 /* hzsleepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F978BA623E3F58800CE0246 /* hzsleepUITests.swift */,
+				8F978BA823E3F58800CE0246 /* Info.plist */,
+			);
+			path = hzsleepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F978B8223E3F58600CE0246 /* hzsleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F978BAB23E3F58800CE0246 /* Build configuration list for PBXNativeTarget "hzsleep" */;
+			buildPhases = (
+				8F978B7F23E3F58600CE0246 /* Sources */,
+				8F978B8023E3F58600CE0246 /* Frameworks */,
+				8F978B8123E3F58600CE0246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hzsleep;
+			productName = hzsleep;
+			productReference = 8F978B8323E3F58600CE0246 /* hzsleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F978B9623E3F58800CE0246 /* hzsleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F978BAE23E3F58800CE0246 /* Build configuration list for PBXNativeTarget "hzsleepTests" */;
+			buildPhases = (
+				8F978B9323E3F58800CE0246 /* Sources */,
+				8F978B9423E3F58800CE0246 /* Frameworks */,
+				8F978B9523E3F58800CE0246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F978B9923E3F58800CE0246 /* PBXTargetDependency */,
+			);
+			name = hzsleepTests;
+			productName = hzsleepTests;
+			productReference = 8F978B9723E3F58800CE0246 /* hzsleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F978BA123E3F58800CE0246 /* hzsleepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F978BB123E3F58800CE0246 /* Build configuration list for PBXNativeTarget "hzsleepUITests" */;
+			buildPhases = (
+				8F978B9E23E3F58800CE0246 /* Sources */,
+				8F978B9F23E3F58800CE0246 /* Frameworks */,
+				8F978BA023E3F58800CE0246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F978BA423E3F58800CE0246 /* PBXTargetDependency */,
+			);
+			name = hzsleepUITests;
+			productName = hzsleepUITests;
+			productReference = 8F978BA223E3F58800CE0246 /* hzsleepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F978B7B23E3F58600CE0246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chi Yan";
+				TargetAttributes = {
+					8F978B8223E3F58600CE0246 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8F978B9623E3F58800CE0246 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8F978B8223E3F58600CE0246;
+					};
+					8F978BA123E3F58800CE0246 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8F978B8223E3F58600CE0246;
+					};
+				};
+			};
+			buildConfigurationList = 8F978B7E23E3F58600CE0246 /* Build configuration list for PBXProject "hzsleep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F978B7A23E3F58600CE0246;
+			productRefGroup = 8F978B8423E3F58600CE0246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F978B8223E3F58600CE0246 /* hzsleep */,
+				8F978B9623E3F58800CE0246 /* hzsleepTests */,
+				8F978BA123E3F58800CE0246 /* hzsleepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F978B8123E3F58600CE0246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F978B9123E3F58800CE0246 /* LaunchScreen.storyboard in Resources */,
+				8F978B8E23E3F58800CE0246 /* Assets.xcassets in Resources */,
+				8F978B8C23E3F58600CE0246 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F978B9523E3F58800CE0246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F978BA023E3F58800CE0246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F978B7F23E3F58600CE0246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F978B8923E3F58600CE0246 /* ViewController.swift in Sources */,
+				8F978B8723E3F58600CE0246 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F978B9323E3F58800CE0246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F978B9C23E3F58800CE0246 /* hzsleepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F978B9E23E3F58800CE0246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F978BA723E3F58800CE0246 /* hzsleepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F978B9923E3F58800CE0246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F978B8223E3F58600CE0246 /* hzsleep */;
+			targetProxy = 8F978B9823E3F58800CE0246 /* PBXContainerItemProxy */;
+		};
+		8F978BA423E3F58800CE0246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F978B8223E3F58600CE0246 /* hzsleep */;
+			targetProxy = 8F978BA323E3F58800CE0246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F978B8A23E3F58600CE0246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F978B8B23E3F58600CE0246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F978B8F23E3F58800CE0246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F978B9023E3F58800CE0246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F978BA923E3F58800CE0246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F978BAA23E3F58800CE0246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F978BAC23E3F58800CE0246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6U372BZN;
+				INFOPLIST_FILE = hzsleep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanchi830.hzsleep.hzsleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F978BAD23E3F58800CE0246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6U372BZN;
+				INFOPLIST_FILE = hzsleep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanchi830.hzsleep.hzsleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F978BAF23E3F58800CE0246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6U372BZN;
+				INFOPLIST_FILE = hzsleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanchi830.hzsleep.hzsleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hzsleep.app/hzsleep";
+			};
+			name = Debug;
+		};
+		8F978BB023E3F58800CE0246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6U372BZN;
+				INFOPLIST_FILE = hzsleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanchi830.hzsleep.hzsleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hzsleep.app/hzsleep";
+			};
+			name = Release;
+		};
+		8F978BB223E3F58800CE0246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6U372BZN;
+				INFOPLIST_FILE = hzsleepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanchi830.hzsleep.hzsleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hzsleep;
+			};
+			name = Debug;
+		};
+		8F978BB323E3F58800CE0246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6U372BZN;
+				INFOPLIST_FILE = hzsleepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanchi830.hzsleep.hzsleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hzsleep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F978B7E23E3F58600CE0246 /* Build configuration list for PBXProject "hzsleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F978BA923E3F58800CE0246 /* Debug */,
+				8F978BAA23E3F58800CE0246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F978BAB23E3F58800CE0246 /* Build configuration list for PBXNativeTarget "hzsleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F978BAC23E3F58800CE0246 /* Debug */,
+				8F978BAD23E3F58800CE0246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F978BAE23E3F58800CE0246 /* Build configuration list for PBXNativeTarget "hzsleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F978BAF23E3F58800CE0246 /* Debug */,
+				8F978BB023E3F58800CE0246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F978BB123E3F58800CE0246 /* Build configuration list for PBXNativeTarget "hzsleepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F978BB223E3F58800CE0246 /* Debug */,
+				8F978BB323E3F58800CE0246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F978B7B23E3F58600CE0246 /* Project object */;
+}
