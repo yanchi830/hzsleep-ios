@@ -14,6 +14,7 @@
 		8F978B9123E3F58800CE0246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F978B8F23E3F58800CE0246 /* LaunchScreen.storyboard */; };
 		8F978B9C23E3F58800CE0246 /* hzsleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F978B9B23E3F58800CE0246 /* hzsleepTests.swift */; };
 		8F978BA723E3F58800CE0246 /* hzsleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F978BA623E3F58800CE0246 /* hzsleepUITests.swift */; };
+		8F978BB523E400FB00CE0246 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F978BB423E400FB00CE0246 /* sample.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8F978BA223E3F58800CE0246 /* hzsleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hzsleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F978BA623E3F58800CE0246 /* hzsleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hzsleepUITests.swift; sourceTree = "<group>"; };
 		8F978BA823E3F58800CE0246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F978BB423E400FB00CE0246 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sample.mp3; path = ../../../../Downloads/sample.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		8F978B7A23E3F58600CE0246 = {
 			isa = PBXGroup;
 			children = (
+				8F978BB423E400FB00CE0246 /* sample.mp3 */,
 				8F978B8523E3F58600CE0246 /* hzsleep */,
 				8F978B9A23E3F58800CE0246 /* hzsleepTests */,
 				8F978BA523E3F58800CE0246 /* hzsleepUITests */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F978BB523E400FB00CE0246 /* sample.mp3 in Resources */,
 				8F978B9123E3F58800CE0246 /* LaunchScreen.storyboard in Resources */,
 				8F978B8E23E3F58800CE0246 /* Assets.xcassets in Resources */,
 				8F978B8C23E3F58600CE0246 /* Main.storyboard in Resources */,
